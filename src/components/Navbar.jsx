@@ -12,7 +12,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import Icon from './../assets/icon.png';
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -38,8 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          {/*Mettre mon logo ici */}
-          <img src={} className="img-fluid logo" alt="brand" />
+          <img src={Icon} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
