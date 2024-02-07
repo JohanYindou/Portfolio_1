@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className='purple'> C++, Javascript and Go. </b>
+                <b className='purple'> Javascript and Php. </b>
               </i>
               <br />
               <br />
@@ -35,16 +35,11 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className='purple'>Node.js</b> and
+              with <b className='purple'>React.js</b> and{''}
+              <b className='purple'>Symfony</b>
+              &nbsp; and discover new technologies to like
               <i>
-                <b className='purple'>
-                  {' '}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className='purple'> React.js and Next.js</b>
+                <b className='purple'>Next.js or Laravel</b>
               </i>
             </p>
           </Col>
