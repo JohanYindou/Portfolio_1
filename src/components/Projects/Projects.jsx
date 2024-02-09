@@ -5,6 +5,10 @@ import Particle from '../Particle';
 import Countrix from './media/Countrix_1.png';
 import Cinemax from './media/Cinemax_1.png';
 import Supakar from './media/Supakar_1.png';
+import BnB from './media/BnB.png';
+import Artflow from './media/Artflow.png';
+import TinyCRM from './media/TinyCRM.png';
+
 
 
 function Projects() {
@@ -21,11 +25,21 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={Countrix}
+              imgPath={BnB}
               isBlog={false}
-              title='Countrix'
-              description="Countrix est une application Web qui sert d'interface pour l'api RestCountries. Projet réalisé dans un but d'apprentissage."
-              ghLink='https://github.com/JohanYindou/Countrix'
+              title='BnB'
+              description="Ce projet est une plateforme de réservation de chambres dans un BnB. Ce projet est construit dans le cadre d'un cours de développement web."
+              ghLink='https://github.com/JohanYindou/BnB'
+              // demoLink=''
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={Artflow}
+              isBlog={false}
+              title='Artflow'
+              description="Artflow est un projet réalisé en groupe lors la formation CDA chez PrepAvenir. Cette application est une galerie d'images qui permet de voir, partager, télécharger et commenter des images."
+              ghLink='https://github.com/JohanYindou/ArtFlow'
               // demoLink=''
             />
           </Col>
@@ -41,6 +55,26 @@ function Projects() {
           </Col>
           <Col md={4} className='project-card'>
             <ProjectCard
+              imgPath={TinyCRM}
+              isBlog={false}
+              title='TinyCRM'
+              description="Projet de fin d'études en CDA intitulé 'TinyCRM'. Ce projet a pour objectif de concevoir et développer une application de type CRM destinée aux agences SMMA."
+              ghLink='https://github.com/JohanYindou/tinycrm'
+              // demoLink=''
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={Countrix}
+              isBlog={false}
+              title='Countrix'
+              description="Countrix est une application Web qui sert d'interface pour l'api RestCountries. Projet réalisé dans un but d'apprentissage."
+              ghLink='https://github.com/JohanYindou/Countrix'
+              // demoLink=''
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <ProjectCard
               imgPath={Supakar}
               isBlog={false}
               title='Supakar'
@@ -49,7 +83,6 @@ function Projects() {
               // demoLink=''
             />
           </Col>
-
           {/*
             Rajouter outant de Col que de projets 
         */}
