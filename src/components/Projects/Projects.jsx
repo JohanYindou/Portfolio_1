@@ -75,7 +75,7 @@ function Projects() {
               technologies={['React', 'API RestCountries']}
               description="Countrix est une application Web qui sert d'interface pour l'api RestCountries. Projet réalisé dans un but d'apprentissage."
               ghLink='https://github.com/JohanYindou/Countrix'
-              // demoLink=''
+              demoLink='https://countrix-alpha.vercel.app/'
             />
           </Col>
           <Col md={4} className='project-card'>
@@ -86,7 +86,7 @@ function Projects() {
               technologies={['React']}
               description="Cette application de personnalisation de voitures, intégrée avec React à partir d'un modèle préexistant, vise à offrir une expérience interactive tout en servant de projet d'apprentissage pour la maîtrise de React"
               ghLink='https://github.com/JohanYindou/Supakar'
-              // demoLink=''
+              demoLink='https://supackar.vercel.app/'
             />
           </Col>
           {/*
