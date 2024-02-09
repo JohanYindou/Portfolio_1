@@ -28,6 +28,7 @@ function Projects() {
               imgPath={BnB}
               isBlog={false}
               title='BnB'
+              technologies={['Symfony', 'SQLite']}
               description="Ce projet est une plateforme de réservation de chambres dans un BnB. Ce projet est construit dans le cadre d'un cours de développement web."
               ghLink='https://github.com/JohanYindou/BnB'
               // demoLink=''
@@ -38,6 +39,7 @@ function Projects() {
               imgPath={Artflow}
               isBlog={false}
               title='Artflow'
+              technologies={['Symfony', 'SQLite']}
               description="Artflow est un projet réalisé en groupe lors la formation CDA chez PrepAvenir. Cette application est une galerie d'images qui permet de voir, partager, télécharger et commenter des images."
               ghLink='https://github.com/JohanYindou/ArtFlow'
               // demoLink=''
@@ -48,6 +50,7 @@ function Projects() {
               imgPath={Cinemax}
               isBlog={false}
               title='Cinemax'
+              technologies={['React', 'API OMDB', 'Express.js']}
               description="Cinemax est une app de recherche de film et permet d'ajouter une sélection en favoris réalisé dans un but d'aprentissage."
               ghLink='https://github.com/JohanYindou/Cinemax'
               // demoLink=''
@@ -58,6 +61,7 @@ function Projects() {
               imgPath={TinyCRM}
               isBlog={false}
               title='TinyCRM'
+              technologies={['Symfony', 'SQLite']}
               description="Projet de fin d'études en CDA intitulé 'TinyCRM'. Ce projet a pour objectif de concevoir et développer une application de type CRM destinée aux agences SMMA."
               ghLink='https://github.com/JohanYindou/tinycrm'
               // demoLink=''
@@ -68,6 +72,7 @@ function Projects() {
               imgPath={Countrix}
               isBlog={false}
               title='Countrix'
+              technologies={['React', 'API RestCountries']}
               description="Countrix est une application Web qui sert d'interface pour l'api RestCountries. Projet réalisé dans un but d'apprentissage."
               ghLink='https://github.com/JohanYindou/Countrix'
               // demoLink=''
@@ -78,6 +83,7 @@ function Projects() {
               imgPath={Supakar}
               isBlog={false}
               title='Supakar'
+              technologies={['React']}
               description="Cette application de personnalisation de voitures, intégrée avec React à partir d'un modèle préexistant, vise à offrir une expérience interactive tout en servant de projet d'apprentissage pour la maîtrise de React"
               ghLink='https://github.com/JohanYindou/Supakar'
               // demoLink=''
