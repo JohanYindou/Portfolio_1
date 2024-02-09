@@ -23,11 +23,11 @@ function ResumeNew() {
         <Row style={{ justifyContent: 'center', position: 'relative' }}>
           <Button
             variant='primary'
-            href={CV} 
+            href={CV}
             target='_blank'
             style={{ maxWidth: '250px' }}>
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Télécharger mon CV
           </Button>
         </Row>
 
@@ -40,11 +40,11 @@ function ResumeNew() {
         <Row style={{ justifyContent: 'center', position: 'relative' }}>
           <Button
             variant='primary'
-            href={CV} 
+            href={CV}
             target='_blank'
             style={{ maxWidth: '250px' }}>
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Télécharger mon CV
           </Button>
         </Row>
       </Container>

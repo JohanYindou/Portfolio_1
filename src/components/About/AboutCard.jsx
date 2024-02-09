@@ -8,29 +8,29 @@ function AboutCard() {
       <Card.Body>
         <blockquote className='blockquote mb-0'>
           <p style={{ textAlign: 'justify' }}>
-            Hi Everyone, I am <span className='purple'>Johan Yindou </span>
-            from <span className='purple'> Paris, France.</span>
+            Salut à tous, je suis <span className='purple'>Johan Yindou </span>
+            de <span className='purple'> Paris, France.</span>
             <br />
-            I am currently student as Application Developer Designer.
+            Je suis actuellement étudiant en tant que Concepteur Développeur d'Applications.
             <br />
-            Apart from coding, some other activities that I love to do!
+            En dehors du codage, j'aime aussi faire d'autres activités !
           </p>
           <ul>
             <li className='about-activity'>
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Jeux Vidéos
             </li>
             <li className='about-activity'>
               <ImPointRight /> Sports
             </li>
             <li className='about-activity'>
-              <ImPointRight /> Travelling
+              <ImPointRight /> Voyages
             </li>
           </ul>
 
-          <p style={{ color: 'rgb(155 126 172)' }}>
+          {/* <p style={{ color: 'rgb(155 126 172)' }}>
             "Strive to build things that make a difference!"{' '}
           </p>
-          <footer className='blockquote-footer'>Johan</footer>
+          <footer className='blockquote-footer'>Johan</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

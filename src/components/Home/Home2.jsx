@@ -16,30 +16,30 @@ function Home2() {
         <Row>
           <Col md={8} className='home-about-description'>
             <h1 style={{ fontSize: '2.6em' }}>
-              LET ME <span className='purple'> INTRODUCE </span> MYSELF
+              Permettez-moi de me <span className='purple'>présenter</span>
             </h1>
             <p className='home-about-body'>
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Je suis tombé amoureux de la programmation et j'ai au moins appris
+              quelque chose, je pense… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              Je suis à l'aise avec des langages classiques comme
               <i>
-                <b className='purple'> Javascript and Php. </b>
+                <b className='purple'> Javascript et Php. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className='purple'>Web Technologies and Products.</b>
-              </i>
+              Mes domaines d'intérêt incluent la création de nouvelles
+              technologies et de produits Web.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className='purple'>React.js</b> and{''}
+              Chaque fois que l'occasion se présente, j'applique également ma
+              passion pour le développement de produits avec{' '}
+              <b className='purple'>React.js</b> et{''}
               <b className='purple'>Symfony</b>
-              &nbsp; and discover new technologies to like
+              &nbsp; et découvre de nouvelles technologies comme
               <i>
-                <b className='purple'>Next.js or Laravel</b>
+                <b className='purple'>Next.js ou Laravel</b>
               </i>
             </p>
           </Col>
@@ -51,9 +51,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className='home-about-social'>
-            <h1>FIND ME ON</h1>
+            <h1>Oû me trouver ?</h1>
             <p>
-              Feel free to <span className='purple'>connect </span>with me
+              N'hésitez pas à <span className='purple'>me contacter</span>.
             </p>
             <ul className='home-about-social-links'>
               <li className='social-icons'>
