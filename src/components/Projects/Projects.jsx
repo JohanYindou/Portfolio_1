@@ -28,7 +28,7 @@ function Projects() {
               imgPath={BnB}
               isBlog={false}
               title='BnB'
-              technologies={['Symfony', 'SQLite']}
+              technologies={['Symfony', 'MySQL']}
               description="Ce projet est une plateforme de réservation de chambres dans un BnB. Ce projet est construit dans le cadre d'un cours de développement web."
               ghLink='https://github.com/JohanYindou/BnB'
               // demoLink=''
